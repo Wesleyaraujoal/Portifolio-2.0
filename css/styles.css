@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Poppins:ital,wght@0,600;0,700;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&family=IM+Fell+Double+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,700;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* INICIO */
+
+.section-1-bg{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.icon-menu img{
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    margin-top: 15px;
+
+}
+
+#barra-menu{
+    background: #180127;
+    height: 100vh;
+    width: 0px;
+    transition: 0.3s all;
+}
+
+#barra-menu ul li{
+    list-style: none;
+    padding: 15px;
+
+}
+
+#barra-menu ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    width: 100%;
+}
+
+#barra-menu ul li a:hover{
+    border: solid 1px #c229aa;
+    padding: 8px;
+    border-radius: 15px;
+    background: #7601c4;
+}
+
+.C-icon{
+    margin-top: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.C-icon span{
+    color: #fbf7f7;
+
+}
+
+.C-icon span:hover{
+    transition: 0.2s;
+    transform: 0.5s;
+    color: #c229aa;
+    
+}
